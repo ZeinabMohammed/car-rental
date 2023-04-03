@@ -23,6 +23,6 @@ ORM is not used in this task as required, just solid principles.
   
     **``` pip install -r requirements.txt ```** 
     - Run 
-      **``` flask --app app run  ```** inside the directory to run the project
+      **``` flask --app app run  ```** to run the project.
     - You can use [Postman](https://www.postman.com/downloads/) to test Customer endpoints, but please read [the docs]([customer_docs.md](customer_docs.md)) first.
 
