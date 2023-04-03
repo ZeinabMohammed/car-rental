@@ -3,7 +3,6 @@ from flask import jsonify
 from typing import Dict
 #TODO: create data modeling for inputs & outputs
 
-
 def respond(message:str =None, developer_message: str =None, data: list =None, code: int =200):
 	if not data:
 		data=[]
@@ -76,7 +75,7 @@ def update_customer(data_input,mysql):
 			cursor.execute(sql)
 			conn.commit()
 			cursor.close()
-			return respond(code=200, message="Customer {0} updated successfully".format(customer_email))
+			return respond(code=200, message="Customer {0} updated successfully".format(customer_email), developer_message="Success")
 		except Exception as e:
 			return respond(message="An error occured; please contact support", developer_message=str(e), code=417)
 

@@ -12,8 +12,8 @@ if __name__ == "__main__":
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '123'
-app.config['MYSQL_DB'] = 'carRental'
+app.config['MYSQL_PASSWORD'] = '123' #replace with your root password
+app.config['MYSQL_DB'] = 'carRental' #database should be created first using SQL file 'car_rental.sql'
 
 mysql = MySQL(app)
 
