@@ -73,7 +73,7 @@ To create, update, get or delete customer
     "code": 200,
     "data": [],
     "developer_message": "Success",
-    "message": "Customer ali@gmail.com was created successfully"
+    "message": "Customer ali@gmail.com was updated successfully"
 }
 ```
 #### Expected exception response examples
