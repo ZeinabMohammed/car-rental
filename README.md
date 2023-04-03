@@ -12,7 +12,7 @@ ORM is not used in this task as required, just solid principles.
 
 
 # Dependencies & configurations needed to run the code.
-- clone this repo on your computer by running int your terminal or cmd:
+- clone this repo on your computer by running the following into your terminal or cmd:
 
     `git clone https://github.com/ZeinabMohammed/car-rental.git`
 - Download [Database SQL file] [car_rental.sql](car_rental.sql)
